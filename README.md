@@ -18,3 +18,14 @@ Como os dados extraídos são brutos em sua forma original, eles precisam ser ma
 O ETL move os dados transformados para o armazenamento de dados de destino. Esta etapa pode implicar o carregamento inicial de todos os dados de origem ou pode ser o carregamento de alterações incrementais nos dados de origem. Você pode carregar os dados em tempo real ou em lotes programados.
 
 fonte: https://www.oracle.com/br/integration/what-is-etl/
+
+&nbsp;
+### Instalar dependências
+```dosini
+go mod tidy
+```
+
+### Executar
+```dosini
+go run main.go
+```
